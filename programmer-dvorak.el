@@ -31,8 +31,8 @@
 (require 'quail)
 
 (quail-define-package
- "programmers-dvorak" "English" "DVP@" t
- "English (ASCII) input method for programmers Dvorak layout."
+ "programmer-dvorak" "English" "DVP@" t
+ "English (ASCII) input method for programmer Dvorak layout."
  nil t t t t nil nil nil nil nil t)
 
 ;; &%  [7  {5  }3  (1  =9  *0  )2  +4  ]6  !8  #`  $~
@@ -140,5 +140,9 @@
  ("(" ?4)
  (")" ?6)
  )
+
+;;;###autoload(register-input-method "programmer-dvorak" "English"
+'quail-use-package "DVP@" "English (ASCII) input method for
+programmer Dvorak layout." "programmer-dvorak")
 
 ;;; programmer-dvorak.el ends here
