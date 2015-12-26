@@ -141,8 +141,6 @@
  (")" ?6)
  )
 
-;;;###autoload(register-input-method "programmer-dvorak" "English"
-'quail-use-package "DVP@" "English (ASCII) input method for
-programmer Dvorak layout." "programmer-dvorak")
+;;;###autoload (register-input-method "programmer-dvorak" "English" 'quail-use-package "DVP@" "English (ASCII) input method for programmer Dvorak layout." "programmer-dvorak")
 
 ;;; programmer-dvorak.el ends here
