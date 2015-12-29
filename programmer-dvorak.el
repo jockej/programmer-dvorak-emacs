@@ -32,7 +32,8 @@
 
 (quail-define-package
  "programmer-dvorak" "English" "DVP@" t
- "English (ASCII) input method for programmer Dvorak layout."
+ "An English (ASCII) dvorak layout optimized for programming, with for example
+ brackets and parens more easily reachable."
  nil t t t t nil nil nil nil nil t)
 
 ;; &%  [7  {5  }3  (1  =9  *0  )2  +4  ]6  !8  #`  $~
